@@ -1,0 +1,936 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:georgia;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  justify-content: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+    /*menu start*/
+
+.menu-container{
+  width: 100%;
+  height: 80px ;
+  background: #37A000;
+  z-index: 10;
+  box-sizing: border-box;
+}   
+
+
+.logo{
+  width: 20%;
+  height: 80%;
+  float: left;
+  text-align: center;
+}
+
+.logo h1{
+  margin-left: 20%;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+
+
+
+
+.menu-item{ 
+width: 80%;
+float: right;
+height: 100%;
+text-align: center;
+padding-left: 10%;
+}
+
+
+.menu-item ul li {
+  width: 100px;
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu-item ul li ul li{
+  background: #37A000;
+  width: 204px;
+  text-align: left;
+  padding: 0px 20px;
+  position: relative;
+  box-sizing: border-box;
+  border-top: 1px solid skyblue;
+}
+
+.menu-item ul li ul li ul{
+
+  position: absolute;
+  left: 205px;
+  top: -1.5px;
+}
+
+.menu-item ul li ul li ul li{
+  background: #37A000;
+  display: none;
+}
+
+.menu-item ul li ul{
+  display: none;
+
+}
+
+.menu-item ul li ul li:hover li{
+  display: inline-block;
+}
+
+.menu-item ul li:hover ul{
+  display: inline-block;
+}
+
+
+
+.menu-item li:hover {
+  background: #37A000;
+  height: 80px;
+
+}
+
+.menu-item li a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item li ul li:hover > a{
+  color: #333333;
+  
+}
+
+.menu-item li:hover > a{
+  color: #333333;
+  
+}
+
+
+.mobile-item{
+  float: right;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+
+}
+
+.mobile-item i{
+  line-height: 60px;
+  font-size: 35px;
+  color: white;
+}
+
+
+
+
+.mobile-item{
+  display: none;
+}
+
+.mobile-menu-item{
+  display: none;
+}
+
+
+
+
+
+
+
+
+    /*menu section close*/
+
+
+
+
+
+
+
+
+      /*hero section start*/
+
+
+
+
+
+.hero-section{
+  width: 100%;
+  height: 100vh;
+  background: url(img/hero.jpg);
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-container{
+  width: 100%;
+  height: 100%;
+  padding: 12% 25%;
+  background: rgba(0, 0, 0, .4);
+}
+
+
+.hero-section h1{
+  font-size: 58px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.hero-section p{
+  font-size: 32px;
+  color: #08DB35;
+}
+
+
+.hero-section button{
+  width: 199px;
+  height: 50px;
+  color: whitesmoke;
+  border: 2px solid #37A000;
+  background: transparent;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: .5s;
+  padding: 1%;
+  margin: 20px;
+
+}
+
+
+
+.hero-section button:hover{
+  background: #37A000;
+  color: #333333;
+  border: none;
+}
+
+
+      /*hero section close*/
+
+
+
+
+.and{
+  width: 100%;
+  height: 50px;
+  background: #D7E1EA;
+  position: absolute;
+}
+
+
+
+
+      /*notic section start*/
+
+
+
+
+
+
+
+
+
+
+
+.notice-container{
+  width: 100%;
+  height: 700px;
+  background: #D7E1EA;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.heading{
+  width: 50%;
+  height: 100%;
+}
+
+.event{
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+
+}
+
+.heading > h1{
+  width: 300px;
+  height: 50px;
+  font-size: 35px;
+  color: whitesmoke;
+  background: #51AA26;
+  text-align: center;
+  margin: 7% 30%;
+  border-radius: 20px 0px;
+}
+
+.news{
+  width: 550px;
+  height: 100px;
+  background: white;
+  margin-left: 10%;
+  position: relative;
+  transition: .5s;
+  margin-top: 20px;
+}
+
+
+.date{
+  width: 75px;
+  height: 75px;
+  background: green;
+  border-left: 2px solid red;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  transition: .5s;
+  text-align: center;
+}
+
+.news:hover{
+  background: #51AA26;
+}
+
+.notice-btn:hover{
+  transform: translateX(10px);
+  background: darkgreen;
+}
+.news:hover .date{
+  transform: translateX(-20px);
+  background: white;
+}
+.news:hover .date h1 {
+  color: #333333;
+}
+.news:hover .date p {
+  color: #333333;
+}
+
+.date h1{
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+}
+
+.date p{
+  font-size: 18px;
+  color: white;
+}
+
+.news>p{
+  font-size: 17px;
+  padding: 2% 1% 0px 18%;
+}
+
+.notice-btn{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 20%;
+  background: green;
+  border: none;
+  border-radius: 10px 0px;
+  margin-top: 1%;
+  color: white;
+  font-size: 17px;
+  transition: .8s;
+}
+
+.all{
+  width: 130px;
+  height: 40px;
+  background: green;
+  border: none;
+  border-radius: 10px 0px;
+  color: white;
+  font-size: 22px;
+  margin: 2% 35%;
+  transition: .8s;
+}
+
+.all:hover{
+  transform: translateX(7px);
+}
+
+
+
+
+
+
+
+.notice{
+  width: 50%;
+  height: 100%;
+}
+
+.tabcontent div div{
+  top: 0px;
+}
+
+.notice > h1{
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  color: whitesmoke;
+  background: #51AA26;
+  text-align: center;
+  margin: 7% 33%;
+  border-radius: 20px 0px;
+}
+
+.chatagory{
+  width: 100%;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: 2%;
+}
+
+.chatagory button{
+  width: 120px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  padding: .7% 1px;
+  border: 1px solid #51AA26;
+}
+
+.chatagory button:hover{
+  background: #51AA26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the tab content */
+
+
+#Admisson{
+  display: none;
+}
+#NOC{
+  display: none;
+}
+#Career{
+  display: none;
+}
+#Income{
+  display: none;
+}
+
+.tabcontent {
+  margin-left: -3%;
+}
+
+.tabcontent div{
+  margin-top: 10px;
+}
+
+
+      /*notic section close*/
+
+
+
+
+
+
+
+
+
+      /*principle section start*/
+
+
+
+
+.principle-container{
+  width: 100%;
+  height: 100vh;
+  background: url(img/p.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.overlay-p{
+  background: rgba(255, 255, 255, .5);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.principle1{
+  width: 50%;
+  height: 100vh;
+}
+
+.principle1 img{
+  width: auto;
+  height: 300px;
+  padding-left: 5%;
+}
+
+
+.principle1 h3{
+  font-size: 25px;
+  color: #000000;
+  padding: 18% 0% 0px 10%;
+  font-family: georgia;
+  font-weight: bold;
+}
+
+.principle1 p{
+  font-size: 18px;
+  font-family: georgia;
+  padding: 1% 18% 0px 10%;
+  line-height: 28px;
+}
+
+.principle1 font{
+  color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: georgia;
+  padding: 1% 0% 0px 10%;
+}
+
+.principle2{
+  width: 50%;
+  height: 600px;
+}
+
+
+
+.principle2 h3{
+  font-size: 25px;
+  color: black;
+  padding: 18% 12% 0px 5%;
+  font-family: georgia;
+  font-weight: bold;
+}
+
+.principle2 p{
+  font-size: 19px;
+  font-family: georgia;
+  color: ;
+  padding: 1% 20% 0px 5%;
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /*principle section close*/
+
+
+
+
+
+
+
+
+
+/*      department section start*/
+
+
+
+
+
+
+
+.Department-heading{
+  width: 100%;
+  height: 100px;
+  background: #D7E1EA;
+  text-align: center;
+
+}
+
+.Department-heading h1{
+  font-size: 33px;
+  padding: 2%;
+}
+
+
+.Department-container{
+  width: 100%;
+  height: auto;
+  background: #D7E1EA;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+}
+
+.department-div{
+  background: whitesmoke;
+  width: 28%;
+  min-width: 370px;
+  height: 330px;
+  margin: .5%; 
+  padding: 2% 3%;
+  transition: .8s;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+
+
+.department-div h1 {
+  font-size: 22px;
+  margin: 2% 0% 5% 0%;
+  color: #848484;
+}
+
+
+.department-div li{
+  list-style: none;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.department-div li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.department-div:hover{
+  background: #5EB036;
+  transform: scale(1.04) translateY(-5px);
+}
+
+
+.department-div:hover h1{
+color: white;
+}
+
+
+.department-div li:hover a{
+  color: ghostwhite;
+  text-decoration: underline;
+}
+
+
+
+
+/*        department section close*/
+
+
+
+
+
+
+
+      /*      count section start*/
+
+
+
+.count-con{
+  width: 100%;
+  height: 50vh;
+  background: url(img/fact-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+}
+
+.count-num{
+  margin: 7% 3%;
+}
+
+.count{
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  color: #37A000;
+
+}
+
+.count-num h1{
+  font-size: 33px;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+
+
+.count-con-2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, .7);
+}
+
+
+
+
+
+
+
+        /*count section close*/
+
+
+
+
+
+
+
+
+
+/*        INSTITUTES section start*/
+
+
+
+
+.INSTITUTES-heading{
+  width: 100%;
+  height: 100px;
+  background: #D7E1EA;
+  text-align: center;
+
+}
+
+.INSTITUTES-heading h1{
+  font-size: 33px;
+  padding: 2%;
+}
+
+
+
+.INSTITUTES-container{
+  width: 100%;
+  height: 30vh;
+  background: #D7E1EA;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+
+.INSTITUTES-container div{
+  width: 24%;
+  height: 100px;
+  background: whitesmoke;
+  margin: .4%;
+  border-top: 5px solid red;
+  transition: .8s;
+  padding: 1.4% 3%;
+
+}
+
+.INSTITUTES-container div a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.INSTITUTES-container div:hover{
+  background: #5EB036;
+  transform: translateY(-7px);
+}
+
+
+.INSTITUTES-container div:hover a{
+  color: ghostwhite;
+}
+
+
+
+
+
+
+
+
+
+
+/*      INSTITUTES section close*/
+
+
+
+
+
+
+
+
+
+
+
+
+        /*about section start*/
+
+
+
+
+
+.about-container{
+  width: 100%;
+  height: 400px;
+  background: #25282A;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0% 0% 3%;
+}
+
+.about-container div{
+  width: 16%;
+  min-width: 210px;
+}
+
+.about-container H5{
+  font-size: 19px;
+  font-weight: bold;
+  color: #E5E5E5;
+  padding: 30% 1% 15% 1%;
+}
+
+.about-container li{
+  list-style: none;
+  padding: 5% 5% 3% 0%;
+  font-size: 15px;
+  transition: .8s;
+}
+.about-container li:hover{
+  transform: translateX(10px);
+}
+
+.about-container li a{
+  text-decoration: none;
+  color: #E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /*about section close*/
+
+
+
+
+
+
+
+
+
+
+
+  /*----- copy right section start ---------*/
+
+.copyright {
+  width:100%;
+  height: 25px;
+  text-align: center;
+  background: white;
+}
+
+.copyright p {
+  color: ##25282A;
+  margin-top: 12px;
+  font-weight: 800;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #25282A;
+}
+
+.copyright a:hover{
+  color: black;
+}
+
+
+
+
+
+
+
+
+    /*copyright section close*/
+
+
+
+
+
+    /*top button start*/
+
+
+
+
+
+
+
+
+
+.top-button{
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+.top-button i {
+  line-height: 31px;
+  font-size: 25px;
+  font-weight: 800;
+  color: green;
+
+}
+
+
+
+
+
+    /*top button close*/

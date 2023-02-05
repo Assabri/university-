@@ -1,0 +1,559 @@
+@media screen and (max-width: 800px) {
+
+.mobile-item{
+		display: block;
+	}
+	.menu-item{
+		display: none;
+	}
+	.mobile-menu-item{
+		display: block;
+	}
+
+
+
+
+
+
+
+
+		/*menu item start*/
+
+.mobile-menu-item{ 
+width: 510px;
+height: auto;
+background: black;
+margin-top: 80px;
+position: fixed;
+z-index: 1;
+}
+
+
+.mobile-menu-item ul li {
+	display:block;
+	line-height: 50px;
+	font-family: century gothic;
+	font-weight: 600;
+	border-top: 1px solid gray;
+}
+
+.mobile-menu-item ul li a{
+	padding: 2px 30px;
+}
+
+.mobile-menu-item ul li ul li a{
+	padding-left: 60px;
+}
+
+
+.mobile-menu-item ul li ul li ul li a{
+	padding-left: 100px;
+}
+
+
+.mobile-menu-item ul li > i{
+	font-size: 25px;
+	float: right;
+	line-height: 50px;
+	padding: 0px 10px;
+	border-left: 1px solid gray;
+	color: #008000;
+}
+
+
+
+
+
+
+
+
+
+.mobile-menu-item li a {
+	text-decoration: none;
+	color: #37a000;
+}
+
+
+
+
+
+
+
+
+
+
+
+		/*menu item close*/
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+    /*menu start*/
+
+
+
+
+
+ 
+.logo{
+  width: 10%;
+}
+
+
+
+.logo h1{
+  margin-left: 30%;
+  font-size: 35px;
+}
+
+
+
+
+
+.mobile-item{
+  width: 11%;
+
+}
+
+
+
+    /*menu section close*/
+
+
+
+
+
+
+
+
+     
+
+      /*hero section start*/
+
+
+
+
+
+
+.hero-container{
+  padding: 40% 4%;
+}
+
+
+.hero-section h1{
+  font-size: 50px;
+}
+
+
+.hero-section p{
+  font-size: 35px;
+  padding-top: 30px;
+}
+
+
+.hero-section button{
+margin-top: 30px;
+
+}
+
+
+      /*hero section close*/
+
+
+
+
+
+
+
+
+      /*notic section start*/
+
+
+
+
+
+
+
+
+
+
+
+.notice-container{
+  width: 100%;
+  height: auto;
+}
+
+
+.heading{
+  width: 100%;
+  height: auto;
+}
+
+.event{
+  height: auto;
+
+}
+
+.heading > h1{
+  margin: 10% 15%;
+}
+
+.news{
+  width: 95%;
+  height: 120px;
+  margin-left: 2%;
+  padding-left: 35px;
+}
+
+
+.date{
+  top: 22px;
+  left: 12px;
+}
+
+
+
+.news>p{
+  font-size: 17px;
+  padding: 2% 1% 0px 18%;
+
+}
+
+.notice-btn{
+  left: 26%;
+  margin-top: 1.5%;
+}
+
+.all{;
+  margin: 5% 35%;
+}
+
+
+
+
+
+
+
+.notice{
+  width: 100%;
+  height: 100%;
+}
+.notice .news{
+  margin-left: 5%;
+  width: 92%;
+
+}
+
+.tabcontent div div{
+  top: 15px;
+}
+
+.notice > h1{
+  margin: 10% 33%;
+}
+
+.chatagory{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.chatagory button{
+  width: 130px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /*principle section start*/
+
+
+.principle-container{
+  height: auto;
+}
+
+.principle1{
+  width: 100%;
+  padding-top: 50px;
+  height: auto;
+}
+
+.principle1 img{
+  padding-left: 3%;
+}
+
+
+.principle1 h3{
+  font-size: 28px;
+  text-align: center;
+  margin-left: -8%;
+  margin-bottom: 50px;
+}
+
+.principle1 p{
+  font-size: 20px;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.principle1 font{
+  font-size: 25px;
+  text-align: center;
+  padding: 5% 0px 0px 0px;
+}
+
+.principle2{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+
+
+.principle2 h3{
+  padding: 18% 5% 0px 5%;
+}
+
+.principle2 p{
+  font-size: 20px;
+  padding: 1% 5% 0px 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /*principle section close*/
+
+
+
+
+
+
+
+
+
+/*      department section start*/
+
+
+
+
+
+.Department-heading{
+  height: auto;
+  padding: 50px 0px 30px 0px;
+}
+
+
+
+
+.department-div{
+  min-width: 350px;
+}
+
+
+
+.department-div h1 {
+  font-size: 25px;
+}
+
+
+.department-div li{
+  list-style: none;
+  font-size: 19px;
+}
+
+
+
+
+/*        department section close*/
+
+
+
+
+
+
+
+      /*      count section start*/
+
+
+
+.count-con{
+  width: 100%;
+  height: 50vh;
+
+}
+
+.count-num{
+  margin: 7% 6%;
+}
+
+
+.count-num h1{
+  font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+        /*count section close*/
+
+
+
+
+
+
+
+
+
+/*        INSTITUTES section start*/
+
+
+
+
+.INSTITUTES-heading{
+  height: auto;
+  padding: 50px 0px;
+
+}
+
+
+
+.INSTITUTES-container{
+  width: 100%;
+  height: 50vh;
+  padding: 1%;
+}
+
+.INSTITUTES-container div{
+  width: 99%;
+
+}
+
+.INSTITUTES-container div a{
+  font-size: 22px;
+}
+
+/*      INSTITUTES section close*/
+
+
+
+
+
+
+
+
+
+
+
+
+        /*about section start*/
+
+
+
+
+
+.about-container{
+  height: auto;
+  justify-content: center;
+}
+
+.about-container div{
+  width: 20%;
+  min-width: 250px;
+}
+
+.about-container H5{
+  font-size: 22px;
+}
+
+.about-container li{
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        /*about section close*/
+
+
+
+
+
+
+
+
+
+
+
+  /*----- copy right section start ---------*/
+
+.copyright {
+  font-size: 18px;
+  height: 50px;
+}
+
+
+
+    /*copyright section close*/
+
+
+
+
+
+    /*top button start*/
+
+
+
+
+
+
+
+
+
+.top-button{
+  bottom: 60px;
+}
+
+
+  /*top button close*/
